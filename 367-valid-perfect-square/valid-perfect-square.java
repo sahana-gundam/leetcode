@@ -3,7 +3,7 @@ class Solution {
         if(num < 1) return false;
         if(num==1) return true;
         long left = 1;
-        long right = num/2;
+        long right = num;
         while(left <= right){
             long mid = left + (right-left)/2;
             long sq = mid*mid;
